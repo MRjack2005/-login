@@ -1,0 +1,118 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    width: 300px;  
+  }
+  
+  /* Container */
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Caja Login */
+  
+  .login {
+    background-color: #fff;
+    width: 400px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;  
+  }
+  
+  .login h1 {
+    font-weight: 500;  
+    font-size: 28px;
+  }
+  
+  /* Formulario */
+  
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 17px;
+
+    border-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 1px #000000;
+    
+  }
+  
+  
+  .password-container {
+    position: relative;
+  }
+  
+  .password-container .fa-eye {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    cursor: pointer;
+  }
+  
+  .login button[type="submit"] {
+    background: #157910;
+    border: 1px solid #ffffff;
+    color: #fff;
+    font-size: 20px;  
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Links */ 
+  
+  .login p {
+    margin-top: 30px;  
+  }
+  
+  .login a {
+    color: #1877f2;
+    text-decoration: none;  
+  }
+  
+  .login hr {
+    border: 1px solid #dddfe2;
+    margin-bottom: 15px;  
+  }
+
+  .login {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 255, 0, 0.5);
+    transition: box-shadow 0.5s ease; /* Agrega una transición suave */
+  }
+  
+  .login:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 255, 0, 0.9); /* Incrementa la intensidad en el hover */
+  }
+
+  body {
+    background: radial-gradient(circle, #000421, #000000); /* Define un fondo degradado radial */
+  }
+  
+  .login {
+    background-color: rgba(255, 255, 255, 0.1); /* Establece el color de fondo con opacidad */
+  }
+  
+  .login a {
+    color: green; /* Cambia el color del enlace a verde */
+  }
+  
+  
